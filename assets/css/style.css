@@ -1,0 +1,396 @@
+body {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/concrete-texture.png");
+
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding: 20px;
+    font-size: 31px;
+	text-align:center;
+    margin: 0;
+    font-weight:bold;
+    
+}
+
+.card-title {
+	text-align: center;
+	background-color: #4aaaa5;
+	color: #fff;
+}
+
+.card-body {
+	background-color: #4aaaa5;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 30px 0 30px 0;
+	margin: 0 0 30px 0;
+	border-bottom: 3px solid #ddd;
+}
+
+h3 {
+	margin:10px 0 0 0;
+}
+
+.hangMan {
+	height: 40px;
+	width: 289px;
+	color: #fff;
+	background-color: #4aaaa5;
+	position: absolute;
+	text-align: center;
+	margin:100px 0 0 0;
+}
+
+.guess {
+	height: 40px;
+	width: 289px;
+	color: #fff;
+	background-color: #4aaaa5;
+	position: absolute;
+	text-align: center;
+	margin:130px 0 0 0;
+}
+
+
+.links{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:25px;
+    font-size: 18px;
+
+}
+
+a:link {
+    color:#777777;
+    text-decoration: none;
+    border-right: 1px solid #ddd;
+    padding: 0 15px 0 15px;
+}
+
+a:visited {
+    color:#777777;
+    text-decoration: none;
+
+}
+  
+a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+a:last-child {
+    border-right: 0;
+}
+
+header {
+	background-color: #fff;
+	border-bottom: 2px solid #ddd;
+	height: 71px
+}
+
+.content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 40px;
+    padding:10px 30px 30px 30px;
+}
+
+.profile-image {
+    width: 300px;
+	float: left;
+	margin: 0 10px 2px 0;
+	border: 1px solid #ddd;
+}
+
+p {
+    line-height: 1.75em;
+	margin-top: -7px;
+	margin-bottom: 26px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.footer {
+    border-top: 4px solid #4aaaa5;
+	background-color: #777;
+	padding: 30px 0 30px 0;
+    clear:both;
+}
+
+.footer p {
+	color: #fff;
+	font-size: 10px;
+	text-align: center;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height:100%;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+.footer, .push {
+	height: -1em;
+}
+
+.tree {
+    float: left;
+    width: 289px;
+    margin: 0 30px -20px 0;
+}
+
+.tree2 {
+	width: 289px;
+}
+
+.eyes {
+    float:left;
+    width: 289px;
+    margin:30px 30px -20px 0;
+}
+
+.lights {
+    width: 289px;
+    margin: 30px 0 0 0;
+}
+
+.label {
+	margin: 0;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+	width: 597px;
+	max-width: 597px;
+	padding: 5px;
+	font-size: 16px;
+	border: 1px solid #ddd;
+}
+
+textarea {
+	height: 200px;
+	width: 597px;
+}
+ 
+input[type='submit'] {
+	display:block;
+	margin-top: 5px;
+	width: 120px;
+	height: 40px;
+	color: #fff;
+	background-color: #4aaaa5;
+	border:0;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+	.container {
+		width:770px;
+		margin: 0 auto;
+
+	}
+
+	.content {
+		width:55%;
+		margin: 20px 41px 20px 0;
+		padding: 0 20px 20px 20px;
+		float: left;
+	}
+
+	.profile-image {
+		width: 200px;
+	}
+
+	.hangMan {
+		margin: 55px 0 0 0;
+		width: 200px;
+	}
+
+	.guess {
+		margin: 175px 0 0 0;
+		width: 200px;
+	}
+
+	.tree {
+		width: 200px;
+		float: left;
+		margin: 0 30px -20px 0;
+	}
+
+	.tree2 {
+		width: 200px;
+		float: right;
+		margin: 0 0 0 -10px;
+		
+	}
+
+	.eyes {
+		width: 200px;
+		float: left;
+		margin: 40px 30px -20px 0;
+	}
+
+	.lights {
+		width: 200px;
+		float: right;
+		margin: 20px 0 0 -10px;
+	}
+
+	input, textarea {
+		margin-bottom: 10px;
+		width: 403px;
+		padding: 5px;
+		font-size: 16px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+.container {
+	width: 768px;
+	margin: 0 auto;
+}
+
+div.content {
+	width: 688px;
+	margin: 20px;
+	padding: 0 20px 20px 20px;
+	float: left;
+	}	
+
+.profile-image {
+	width: 300px;
+}
+
+.hangMan {
+	width: 325px;
+	margin: 120px 0 0 0;
+}
+
+.guess {
+	width: 325px;
+	margin: 312px 0 0 0;
+}
+
+.tree {
+	width: 325px;
+	float: left;
+	margin: 0 30px -20px 0;
+}
+
+.tree2 {
+	width: 325px;
+	float: right;
+	margin: 0 0 0 -10px;
+	
+}
+
+.eyes {
+	width: 325px;
+	float: left;
+	margin: 50px 30px -20px 0;
+}
+
+.lights {
+	width: 325px;
+	float: right;
+	margin: 30px 0 0 -10px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+	width: 678px;
+	max-width: 678px;
+	padding: 5px;
+	font-size: 16px;
+	
+}
+
+
+}
+
+@media screen and (max-width: 640px) {
+	
+
+#name {
+	float: none;
+}
+
+#links {
+	margin: 0;
+	float:none;
+	padding: 20px 0 20px 0;
+	width:100%
+}
+
+.container {
+	width: 641px;
+	margin: 0 auto;
+}
+
+div.content {
+	width: 561px;
+	margin: 20px;
+	padding: 0 20px 20px 20px;
+	float: left;
+}
+
+.profile-image {
+	width: 558px;
+	float: none;
+	margin: 0 0 20px 0;
+	border: 1px solid #ddd;
+}
+
+.tree, .tree2, .eyes, .lights {
+	float:none;
+	margin:15px;
+	width: 525px;
+}
+
+.hangMan {
+	width: 525px;
+	margin: -65px 15px 15px 15px;
+}
+
+.guess {
+	width: 525px;
+	margin: -65px 15px 15px 15px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+		width: 548px;
+		max-width: 548px;
+		padding: 5px;
+		font-size: 16px;
+		border: 1px solid #ddd;
+	}
+}
+
+	
+
+
+
